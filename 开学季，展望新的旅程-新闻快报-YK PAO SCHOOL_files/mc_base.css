@@ -1,0 +1,228 @@
+body {
+    overflow: hidden;
+    background: #fff;
+}
+
+img{
+    width: 100%;
+}
+
+a {
+    display: block;
+}
+
+.yxedr_active img{
+    width: unset;
+}
+
+.mc_cnzz span {
+    display: inline-block;
+    transform: translateY(-1px);
+}
+
+.mc_cnzz a {
+    display: block;
+    width: 50px;
+    height: 12px;
+    margin-left: 12px;
+    margin-top: -6px;
+}
+
+.mc_cnzz img {
+    width: 100%;
+}
+
+/* 响应式内容区变化 */
+@media screen and (min-width: 1201px) {
+    .mc_container {
+        width: 1350px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mc_container {
+        width: 768px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+
+    /* 分页 */
+    .mc_pcfy {
+        display: none;
+    }
+
+    .mc_phfy {
+        display: block !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .mc_container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+
+    /* bshare手机端 */
+    .bsBox {
+        width: 255px !important;
+        margin: 0 !important;
+        transform: translate(-50%, -50%)
+    }
+
+    .bsTop {
+        width: 255px !important;
+    }
+
+    #bsMorePanel {
+        width: 255px !important;
+    }
+
+    .bFind-wrapper-top input {
+        width: unset !important;
+    }
+
+    #bsPanel {
+        display: none;
+    }
+
+    /* slick指示点 */
+    
+
+}
+
+/* bshare 界面错乱调整 */
+.bsBox,
+#bsPanel div,
+#bsMorePanel div,
+#bshareF div {
+    box-sizing: content-box;
+}
+
+.bsTop span {
+    line-height: 24px !important;
+}
+
+/* 列表图片 */
+.mc_list_imgbox {
+    position: relative;
+    overflow: hidden;
+}
+
+.mc_list_imgbox img {
+    height: 100%;
+}
+
+.mc_list_png {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.mc_list_img {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+
+/* 两边截取 */
+.mc_lbjq {
+    width: 100%;
+}
+
+.mc_lbjq img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mc_container_lbjq {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+/* 左图右文 */
+.dl::after {
+    display: block;
+    clear: both;
+    height: 0;
+    content: ' ';
+}
+
+.dl {
+    zoom: 1;
+}
+
+.dt,
+.dd {
+    float: left;
+}
+
+
+/* plaeceholder样式改变 */
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: rgba(255, 255, 255, .4);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: rgba(255, 255, 255, .4);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: rgba(255, 255, 255, .4);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: rgba(255, 255, 255, .4);
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+/* 小图标i标签 */
+.mc_iconfont {
+    display: inline-block;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+/* 下拉选择 */
+.mc_select_head {
+    cursor: pointer;
+}
+
+.mc_select_body {
+    display: none;
+}
+
+.mc_select_list {
+    cursor: pointer;
+}
+
+
+/* 小图标 */
+.mc_icon{
+    display: block;
+}

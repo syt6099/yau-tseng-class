@@ -1,0 +1,768 @@
+/* web绔� */
+
+/* 閲嶈1920px 1440px 1366px */
+
+
+
+@media screen and (max-width: 1680px) {}
+
+
+
+@media screen and (max-width: 1560px) {}
+
+
+
+@media screen and (max-width: 1440px) {
+
+    .yx_mc_container {
+
+        width: 1200px;
+
+    }
+
+    /* 2.14 */
+    .yx_mc_video_li{
+        width: 414px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .yx_mc_container {
+
+        width: 768px;
+
+        padding: 0 15px;
+
+    }
+
+
+
+
+
+    .yx_mc_4lisbox_word {
+
+        font-size: 14px;
+
+        line-height: 20px;
+
+    }
+
+
+
+    .yx_mc_b1s1_fl {
+
+        width: 100%;
+
+        padding-right: 0;
+
+        margin-bottom: 40px;
+
+    }
+
+
+
+    .yx_mc_b1s1_fr {
+
+        width: 100%;
+
+    }
+
+
+
+    .pic_left .yx_mc_b1s1_fl {
+
+        padding-left: 0;
+
+    }
+
+
+
+    .yx_mc_b1s1_fl {
+
+        margin-bottom: 24px;
+
+    }
+
+
+
+    .yx_mc_b2s1rmore_dl {
+
+        padding: 0 20px;
+
+    }
+
+
+
+    .yx_mc_b2s1rmore_dt {
+
+        margin-right: 12px;
+
+    }
+
+
+
+    .yx_mc_b2s1rmore_dt {
+
+        width: 15px;
+
+        line-height: 48px;
+
+    }
+
+
+
+    .yx_mc_b2s1rmore_dd {
+
+        font-size: 14px;
+
+        line-height: 48px;
+
+    }
+
+
+
+    .yx_mc_f2_tabbox {
+
+        overflow: auto;
+
+    }
+
+    .yx_mc_c6_tabbigbox {
+
+        min-width: 1000px;
+
+    }
+
+    .yx_mc_e2_tab1,
+
+    .yx_mc_e2_tab2 {
+
+        min-width: 737px;
+
+    }
+    /*peter 12.19*/
+    .yx_mc_video_list{
+        margin: 0px -10px;
+    }
+    .yx_mc_video_li {
+        padding: 0 10px;
+        width: 50%;
+    }
+
+    /* 2.14 */
+    .yx_mc_video_li{
+        width: 379px;
+    }
+
+}
+
+
+
+/* 骞虫澘 */
+
+
+
+@media screen and (max-width: 767px) {
+
+    .yx_mc_container {
+
+        width: 100%;
+
+    }
+
+
+
+    .yx_mc_4list {
+
+        margin: 24px -5px 0;
+
+    }
+
+
+
+    .yx_mc_4li {
+
+        width: 50%;
+
+        padding: 0 5px;
+
+        padding-bottom: 15px;
+
+    }
+
+
+
+    .yx_mc_4lisbox_word {
+
+        font-size: 14px;
+
+        line-height: 20px;
+
+        height: 40px;
+
+        margin-top: 10px;
+
+        overflow: hidden;
+
+    }
+
+
+
+    .yx_mc_5list {
+
+        margin: 20px -5px 0;
+
+    }
+
+
+
+    .yx_mc_5li {
+
+        width: 50%;
+
+        padding: 0 5px;
+
+        margin-bottom: 15px;
+
+    }
+
+
+
+    .yx_mc_inner_title {
+
+        font-size: 20px;
+
+        margin-bottom: 15px;
+
+    }
+
+
+
+    .yx_mc_inner_subtitle {
+
+        font-size: 18px;
+
+        margin-bottom: 12px;
+
+    }
+
+
+
+    .yx_mc_inner_smalltitle {
+
+        font-size: 16px;
+
+        margin-bottom: 10px;
+
+    }
+
+
+
+    .yx_mc_cont1630 p {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .yx_mc_b4s1_lidian {
+
+        line-height: 24px;
+
+    }
+
+
+
+    .yx_mc_h1_list .yx_mc_b4s1_lidian {
+
+        width: 20px;
+
+        margin-top: -3px;
+
+    }
+
+
+
+    .yx_mc_b4s1_li {
+
+        font-size: 14px;
+
+        line-height: 24px;
+
+    }
+
+
+
+    .yx_mc_b4s1_lititle {
+
+        font-size: 16px;
+
+    }
+
+
+
+    .yx_mc_dianword .yx_mc_b4s1_li {
+
+        margin-bottom: 10px;
+
+    }
+
+
+
+    .yx_mc_c3s2list_title {
+
+        font-size: 14px;
+
+        line-height: 24px;
+
+    }
+
+
+
+    .yx_mc_c3s2_list {
+
+        margin-top: 10px;
+
+    }
+
+
+
+    .yx_mc_b2s1_l {
+
+        width: 100%;
+
+        margin-bottom: 24px;
+
+    }
+
+
+
+    .yx_mc_b2s1_r {
+
+        width: 100%;
+
+        padding-left: 0;
+
+    }
+
+
+
+    .yx_mc_b3 .yx_mc_b2s1_l {
+
+        width: 100%;
+
+        margin-bottom: 30px;
+
+    }
+
+
+
+    .b1s3_contbox {
+
+        margin-bottom: 20px;
+
+    }
+
+
+
+    .b1s3_contbox:last-child {
+
+        margin-bottom: 0;
+
+    }
+
+
+
+    .yx_mc_cont1624 p {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .yx_mc_b5s1r_more {
+
+        padding: 0;
+
+        margin: 20px 0;
+
+    }
+
+
+
+    .yx_mc_b5s1r_more .yx_mc_b2s1rmore_dt,
+
+    .yx_mc_b5s1r_more .yx_mc_b2s1rmore_dd {
+
+        font-size: 12px;
+
+        line-height: 20px;
+
+        padding: 10px 0;
+
+    }
+
+
+
+    .yx_mc_b5s1r_more .yx_mc_b2s1rmore_dt {
+
+        padding: 9px 0;
+
+    }
+
+
+
+    .yx_mc_b2s1rmore_dl {
+
+        padding: 0 10px;
+
+    }
+
+
+
+    .yx_mc_b2s1rmore_dt {
+
+        margin-right: 8px;
+
+    }
+
+
+
+    .yx_mc_b2s1rmore_dd {
+
+        max-width: calc(100% - 20px);
+
+    }
+
+
+
+    .yx_mc_b4s1_bdcontbox {
+
+        margin-bottom: 20px;
+
+    }
+
+
+
+    .yx_mc_b4s1_li {
+
+        font-size: 14px;
+
+        line-height: 24px;
+
+    }
+
+
+
+    .yx_mc_dianword .yx_mc_b4s1_li {
+
+        margin-bottom: 10px;
+
+    }
+
+
+
+    .yx_mc_b4s1_lidian {
+
+        width: 5px;
+
+        line-height: 30px;
+
+        color: #5cb531;
+
+        display: inline-block;
+
+        margin-right: 10px;
+
+    }
+
+
+
+    .yx_mc_b4s1_lidian {
+
+        width: 15px;
+
+        margin: 0;
+
+        padding-right: 10px;
+
+    }
+
+
+
+    .yx_mc_e2s2 .yx_mc_b4s1_lidian {
+
+        color: #666;
+
+    }
+
+
+
+    .yx_mc_h1_list .yx_mc_b4s1_lidian {
+
+        width: 30px;
+
+    }
+
+
+
+    .yx_mc_b4s1_liword {
+
+        width: calc(100% - 15px);
+
+        line-height: 30px;
+
+    }
+
+
+
+    .yx_mc_b4s1_liword a {
+
+        color: #5cb531;
+
+        display: inline-block;
+
+    }
+
+
+
+    .yx_mc_h1_list .yx_mc_b4s1_liword {
+
+        width: calc(100% - 30px);
+
+    }
+
+
+
+    .yx_mc_f2_tabbox {
+
+        margin-bottom: 20px;
+
+    }
+
+
+
+    .yx_mc_f2_tabbox th {
+
+        font-size: 16px;
+
+        line-height: 20px;
+
+    }
+
+
+
+    .yx_mc_f2_tabbox td {
+
+        font-size: 14px;
+
+        line-height: 20px;
+
+    }
+
+
+
+    .yx_mc_f2_tabbox {
+
+        overflow: auto;
+
+    }
+
+
+
+    .yx_mc_f2_tabbox td p {
+
+        font-size: 14px;
+
+        line-height: 20px;
+
+    }
+
+
+
+    .yx_mc_xlbox_title {
+
+        font-size: 16px;
+
+    }
+
+
+
+    .yx_mc_xlbox_bd p {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .yx_mc_xlbox_imgbox {
+
+        width: 6px;
+
+    }
+
+
+
+    .yx_mc_xlbox_hd {
+
+        padding: 6px 15px;
+
+    }
+
+
+
+    .yx_mc_xlbox_lg .yx_mc_xlbox_hd {
+
+        padding: 10px 15px;
+
+    }
+
+
+
+    .yx_mc_xlbox_title {
+
+        font-size: 14px;
+
+        max-width: 280px;
+
+        /* overflow: hidden; */
+
+        /* text-overflow: ellipsis; */
+
+        /* white-space: nowrap; */
+
+    }
+
+
+
+    .yx_mc_xlbox_imgbox {
+
+        position: absolute;
+
+        right: 15px;
+
+        top: 50%;
+
+        margin-top: -10px;
+
+    }
+
+
+
+    .yx_mc_xlbox_hd {
+
+        position: relative;
+
+    }
+
+
+
+    .yx_mc_xlbox_bd {
+
+        padding: 15px 15px 0;
+
+    }
+
+    .yx_mc_c6_tab {
+
+        min-width: 737px;
+
+    }
+
+    .yx_mc_c6_tab_imgbox {
+
+        min-width: 737px;
+
+        margin-top: 10px;
+
+    }
+
+    /* 12.4 */
+    .yx_mc_c2_list {
+        margin: 0 -2px;
+    }
+
+    .yx_mc_c2_li {
+        padding: 0 2px;
+        width: 50%;
+        margin-bottom: 4px;
+    }
+
+    /*peter 12.19*/
+    .yx_mc_xlbox_lg .yx_mc_xlbox_hd {
+        padding: 10px 15px;
+    }
+    .yx_mc_xlbox_title{
+        font-size: 14px;
+        max-width: 280px;
+    }
+    .yx_mc_xlbox_imgbox {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        margin-top: -10px;
+        width: 6px;
+    }
+    .yx_mc_xlbox_bd {
+        padding: 15px 15px 0;
+    }
+    .yx_mc_xlbox_bd p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .yx_mc_video_li {
+        padding: 0 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .yx_mc_vtabli_bot {
+        padding: 15px;
+    }
+    .yx_mc_vtabli_word {
+        font-size: 14px;
+        line-height: 20px;
+        height: auto;
+        max-height: 80px;
+    }
+    .yx_mcc2_list2 .yx_mc_c2_li{
+        width: 100%;
+    }
+
+
+
+}
+
+
+
+/* 鎵嬫満 */
+
+/* 320px-416px */
+
+@media screen and (max-width: 360px) {
+
+    .yx_mc_b2s1rmore_dd {
+
+        font-size: 12px;
+
+    }
+
+
+
+    .yx_mc_b2s1rmore_dt {
+
+        width: 15px;
+
+    }
+
+}
+
+.yx_mc_video_li{
+    margin-bottom: 30px !important;
+}
